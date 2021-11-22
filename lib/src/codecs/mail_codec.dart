@@ -69,6 +69,7 @@ abstract class MailCodec {
     'cp-1250': const Windows1250Codec(allowInvalid: true),
     'windows-1251': const Windows1251Codec(allowInvalid: true),
     'cp1251': const Windows1251Codec(allowInvalid: true),
+    'koi8r': const KOI8RCodec(allowInvalid: true),
     'windows-1252': const Windows1252Codec(allowInvalid: true),
     'cp1252': const Windows1252Codec(allowInvalid: true),
     'cp-1252': const Windows1252Codec(allowInvalid: true),
